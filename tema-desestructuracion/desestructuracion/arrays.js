@@ -8,7 +8,7 @@ const segundoColor = colores[1];
 console.log(primerColor);
 console.log(segundoColor);
 
-/* Usando destructuracion */
+/* Usando desestructuracion */
 
 const [colorPrincipal, colorSecundario] = colores;
 

@@ -11,7 +11,7 @@ function Saludo(props) {
 //uso del componente
 <Saludo nombre="Carlos" edad={25} />
 
-//Con destructuracion dentro del cuerpo de la funcion:
+//Con desestructuracion dentro del cuerpo de la funcion:
 
 function Saludo(props) {
     const {nombre, edad } = props;

@@ -14,14 +14,14 @@ function obtenerConfiguracion() {
     };
 }
 
-/*sin destructuracion*/
+/*sin desestructuracion*/
 const config = obtenerConfiguracion();
 const temaconfig = config.tema;
 const idiomaConfig = config.idioma;
 
 console.log(temaconfig, idiomaConfig);
 
-/*con destructuracion*/
+/*con desestructuracion*/
 const { tema, idioma} = obtenerConfiguracion();
 console.log(tema, idioma);
 

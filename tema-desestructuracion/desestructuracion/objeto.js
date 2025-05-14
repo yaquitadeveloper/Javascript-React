@@ -18,7 +18,7 @@ console.log(edadUsuario);
 console.log(ciudadUsuario);
 console.log(profesionUsuario);
 
-/* Usando Destructuracion:*/
+/* Usando Desestructuracion:*/
 const {nombre, edad, ciudad} = usuario;
 
 console.log(nombre);

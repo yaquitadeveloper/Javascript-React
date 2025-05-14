@@ -15,12 +15,12 @@ function Contador() {
     );
 }
 
-// con destructuracion de array:
+// con desestructuracion de array:
 
 import React, { useState } from 'react';
 
 function Contador() {
-    const [contador, setContador] = useState(0); // Destructuracion del array devuelto por useState
+    const [contador, setContador] = useState(0); // Desestructuracion del array devuelto por useState
 
     return (
         <div>
